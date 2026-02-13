@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploaded content (avatars and post images)
+/assets/uploads/avatars/
+/assets/uploads/posts/
+!assets/uploads/avatars/.gitkeep
+!assets/uploads/posts/.gitkeep
+
+# Configuration (optional – if you want to keep config.php out of repo)
+/includes/config.php
+
+# Logs and temporary files
+*.log
+tmp/
